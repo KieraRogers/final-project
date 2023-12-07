@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" href="css/custom.css">
     <title>Home</title>
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
@@ -40,43 +40,56 @@
     <main>
 
         <section class="hero-banner">
-            <img src="images/lighthouse.png"  class="d-block mx-lg-auto img-fluid" alt="">
+            <img src="images/lighthouse.jpg"  class="d-block mx-lg-auto img-fluid" alt="">
         </section>
 
-        <section class="p-4 container-fluid bg-secondary">
+        <section class=" container-fluid behind-colour-brown py-4">
             <div class="row pb-4">
                 <h2 class="col">New Additions</h2>
                 <button class="col-2 col-lg-1">See All</button>
             </div>
 
-            <div class="row gap-4">
-                <article class="col-md-6 col-lg-3 py-4 bg-light rounded">
-                    <img src="images/collins-diaries.jpg" class="img-fluid" alt="Picture of the Collins family">
-                    <h3>Colins' Diaries</h3>
-                    <p>Pocket diary authored by an unknown person. Contains entries dated January 1, 1899 - November 18, 1899.</p>
-                    <button>Read more</button>
-                </article>
+            
+            <div class="additions-cards row flex-wrap">
+                <div class="card col">
+                    <img src="images/collins-diaries.jpg" class="card-img-top img-fluid card-img" alt="...">
+                    <div class="card-body">
+                        <h4>Colins' Diaries</h4>
+                        <p class="card-text">Pocket diary authored by an unknown person. Contains entries dated January 1, 1899 - November 18, 1899.</p>
+                        <button>Read more</button>
+                    </div>
+                </div>
 
-                <article class="col-md-6 col-lg-3 py-4 bg-light rounded">
-                    <img src="images/greek-seaman.jpg" class="img-fluid" alt="Picture of greek seaman">
-                    <h3>Greek Seaman</h3>
-                    <p>A discharge book for a Greek seaman, registration number 15385. His name, father's name, place born and birth date is listed.</p>
-                    <button>Read more</button>
-                </article>
 
-                <article class="col-md-6 col-lg-3 py-4 bg-light rounded">
-                    <img src="images/rambles-lecture.jpeg" class="img-fluid" alt="Picture of Rambles lecture">
-                    <h3>Rambles Lecture</h3>
-                    <p>Lecture by W.H. Goodland includes topics such as St. John's Harbour, Fort Amherst, Fort William, Colonial Building, Garrison Hill.</p>
-                    <button>Read more</button>
-                </article>
+                <div class="card col">
+                    <img src="images/greek-seaman.jpg" class="card-img-top img-fluid card-img" alt="...">
+                    <div class="card-body">
+                        <h4>Greek Seaman</h4>
+                        <p class="card-text">A discharge book for a Greek seaman, registration number 15385. His name, father's name, place born and birth date is listed.</p>
+                        <button>Read more</button>
+                    </div>
+                </div>
 
-                <article class="col-md-6 col-lg-3 py-4 bg-light rounded">
-                    <img src="images/debt-manuscript.jpeg" class="img-fluid" alt="Picture of dept manuscript">
-                    <h3>Debt Manuscript</h3>
-                    <p>Manuscript written by A.H. Murray regarding public debt in Newfoundland, as well as the decline in the fishery.</p>
-                    <button>Read more</button>
-                </article>
+
+                <div class="card col">
+                    <img src="images/rambles-lecture.jpeg" class="card-img-top img-fluid card-img" alt="...">
+                    <div class="card-body">
+                        <h4>Rambles Lecture</h4>
+                        <p class="card-text">Lecture by W.H. Goodland includes topics such as St. John's Harbour, Fort Amherst, Fort William, Colonial Building, Garrison Hill.</p>
+                        <button>Read more</button>
+                    </div>
+                </div>
+
+
+                <div class="card col">
+                    <img src="images/debt-manuscript.jpeg" class="card-img-top img-fluid card-img" alt="...">
+                    <div class="card-body">
+                        <h4>Debt Manuscript</h4>
+                        <p class="card-text">Manuscript written by A.H. Murray regarding public debt in Newfoundland, as well as the decline in the fishery.</p>
+                        <button>Read more</button>
+                    </div>
+                </div>
+
             </div>
         </section>
 
@@ -84,7 +97,7 @@
     </main>
 
 
-    <footer class="p-4 container-fluid bg-primary">
+    <footer class="p-4 container-fluid">
         <div class="row">
             <h3 class="col-2">Contact</h3>
             <p class="col-10 col-md-6">Contact us by email, phone, mail, or come see us in person!</p>
