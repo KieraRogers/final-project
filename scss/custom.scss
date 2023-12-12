@@ -37,6 +37,20 @@ footer {
     background-color: $primary;
 }
 
+.more-btn {
+    background-color: #5f77f4;
+    color: aliceblue;
+}
+
+.nav-page {
+    background-color: #0e1a4e;
+    color: #0e1a4e;
+}
+
+.active {
+    color: #435ed5;
+}
+
 @media screen and (max-width: 992px) {
     .virtual-intro-cards .card,
     .additions-cards .card {
