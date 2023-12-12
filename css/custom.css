@@ -32,7 +32,7 @@
   --bs-primary: rgba(44, 94, 155, 0.3098039216);
   --bs-secondary: rgba(43, 6, 6, 0.4392156863);
   --bs-success: #198754;
-  --bs-info: #0dcaf0;
+  --bs-info: #4461e3;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
@@ -40,7 +40,7 @@
   --bs-primary-rgb: 44, 94, 155;
   --bs-secondary-rgb: 43, 6, 6;
   --bs-success-rgb: 25, 135, 84;
-  --bs-info-rgb: 13, 202, 240;
+  --bs-info-rgb: 68, 97, 227;
   --bs-warning-rgb: 255, 193, 7;
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 248, 249, 250;
@@ -48,7 +48,7 @@
   --bs-primary-text-emphasis: rgba(5, 10, 17, 0.7239215686);
   --bs-secondary-text-emphasis: rgba(7, 1, 1, 0.7756862745);
   --bs-success-text-emphasis: #0a3622;
-  --bs-info-text-emphasis: #055160;
+  --bs-info-text-emphasis: #1b275b;
   --bs-warning-text-emphasis: #664d03;
   --bs-danger-text-emphasis: #58151c;
   --bs-light-text-emphasis: #495057;
@@ -56,7 +56,7 @@
   --bs-primary-bg-subtle: rgba(246, 248, 251, 0.8619607843);
   --bs-secondary-bg-subtle: rgba(241, 239, 239, 0.8878431373);
   --bs-success-bg-subtle: #d1e7dd;
-  --bs-info-bg-subtle: #cff4fc;
+  --bs-info-bg-subtle: #dadff9;
   --bs-warning-bg-subtle: #fff3cd;
   --bs-danger-bg-subtle: #f8d7da;
   --bs-light-bg-subtle: #fcfcfd;
@@ -64,7 +64,7 @@
   --bs-primary-border-subtle: rgba(232, 237, 244, 0.7239215686);
   --bs-secondary-border-subtle: rgba(222, 216, 216, 0.7756862745);
   --bs-success-border-subtle: #a3cfbb;
-  --bs-info-border-subtle: #9eeaf9;
+  --bs-info-border-subtle: #b4c0f4;
   --bs-warning-border-subtle: #ffe69c;
   --bs-danger-border-subtle: #f1aeb5;
   --bs-light-border-subtle: #e9ecef;
@@ -144,7 +144,7 @@
   --bs-primary-text-emphasis: rgba(209, 220, 233, 0.5858823529);
   --bs-secondary-text-emphasis: rgba(192, 181, 181, 0.6635294118);
   --bs-success-text-emphasis: #75b798;
-  --bs-info-text-emphasis: #6edff6;
+  --bs-info-text-emphasis: #8fa0ee;
   --bs-warning-text-emphasis: #ffda6a;
   --bs-danger-text-emphasis: #ea868f;
   --bs-light-text-emphasis: #f8f9fa;
@@ -152,7 +152,7 @@
   --bs-primary-bg-subtle: rgba(2, 4, 7, 0.8619607843);
   --bs-secondary-bg-subtle: rgba(3, 0, 0, 0.8878431373);
   --bs-success-bg-subtle: #051b11;
-  --bs-info-bg-subtle: #032830;
+  --bs-info-bg-subtle: #0e132d;
   --bs-warning-bg-subtle: #332701;
   --bs-danger-bg-subtle: #2c0b0e;
   --bs-light-bg-subtle: #343a40;
@@ -160,7 +160,7 @@
   --bs-primary-border-subtle: rgba(9, 20, 33, 0.5858823529);
   --bs-secondary-border-subtle: rgba(13, 2, 2, 0.6635294118);
   --bs-success-border-subtle: #0f5132;
-  --bs-info-border-subtle: #087990;
+  --bs-info-border-subtle: #293a88;
   --bs-warning-border-subtle: #997404;
   --bs-danger-border-subtle: #842029;
   --bs-light-border-subtle: #495057;
@@ -1972,13 +1972,13 @@ progress {
 
 .table-info {
   --bs-table-color: #000;
-  --bs-table-bg: #cff4fc;
-  --bs-table-border-color: #a6c3ca;
-  --bs-table-striped-bg: #c5e8ef;
+  --bs-table-bg: #dadff9;
+  --bs-table-border-color: #aeb2c7;
+  --bs-table-striped-bg: #cfd4ed;
   --bs-table-striped-color: #000;
-  --bs-table-active-bg: #badce3;
+  --bs-table-active-bg: #c4c9e0;
   --bs-table-active-color: #000;
-  --bs-table-hover-bg: #bfe2e9;
+  --bs-table-hover-bg: #cacee6;
   --bs-table-hover-color: #000;
   color: var(--bs-table-color);
   border-color: var(--bs-table-border-color);
@@ -3015,20 +3015,20 @@ textarea.form-control-lg {
 }
 
 .btn-info {
-  --bs-btn-color: #000;
-  --bs-btn-bg: #0dcaf0;
-  --bs-btn-border-color: #0dcaf0;
-  --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #31d2f2;
-  --bs-btn-hover-border-color: #25cff2;
-  --bs-btn-focus-shadow-rgb: 11, 172, 204;
-  --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #3dd5f3;
-  --bs-btn-active-border-color: #25cff2;
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #4461e3;
+  --bs-btn-border-color: #4461e3;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #3a52c1;
+  --bs-btn-hover-border-color: #364eb6;
+  --bs-btn-focus-shadow-rgb: 96, 121, 231;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #364eb6;
+  --bs-btn-active-border-color: #3349aa;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #000;
-  --bs-btn-disabled-bg: #0dcaf0;
-  --bs-btn-disabled-border-color: #0dcaf0;
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #4461e3;
+  --bs-btn-disabled-border-color: #4461e3;
 }
 
 .btn-warning {
@@ -3151,19 +3151,19 @@ textarea.form-control-lg {
 }
 
 .btn-outline-info {
-  --bs-btn-color: #0dcaf0;
-  --bs-btn-border-color: #0dcaf0;
-  --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #0dcaf0;
-  --bs-btn-hover-border-color: #0dcaf0;
-  --bs-btn-focus-shadow-rgb: 13, 202, 240;
-  --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #0dcaf0;
-  --bs-btn-active-border-color: #0dcaf0;
+  --bs-btn-color: #4461e3;
+  --bs-btn-border-color: #4461e3;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #4461e3;
+  --bs-btn-hover-border-color: #4461e3;
+  --bs-btn-focus-shadow-rgb: 68, 97, 227;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #4461e3;
+  --bs-btn-active-border-color: #4461e3;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #0dcaf0;
+  --bs-btn-disabled-color: #4461e3;
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #0dcaf0;
+  --bs-btn-disabled-border-color: #4461e3;
   --bs-gradient: none;
 }
 
@@ -6773,7 +6773,7 @@ textarea.form-control-lg {
 }
 
 .text-bg-info {
-  color: #000 !important;
+  color: #fff !important;
   background-color: RGBA(var(--bs-info-rgb), var(--bs-bg-opacity, 1)) !important;
 }
 
@@ -6829,8 +6829,8 @@ textarea.form-control-lg {
   text-decoration-color: RGBA(var(--bs-info-rgb), var(--bs-link-underline-opacity, 1)) !important;
 }
 .link-info:hover, .link-info:focus {
-  color: RGBA(61, 213, 243, var(--bs-link-opacity, 1)) !important;
-  text-decoration-color: RGBA(61, 213, 243, var(--bs-link-underline-opacity, 1)) !important;
+  color: RGBA(54, 78, 182, var(--bs-link-opacity, 1)) !important;
+  text-decoration-color: RGBA(54, 78, 182, var(--bs-link-underline-opacity, 1)) !important;
 }
 
 .link-warning {
@@ -11886,12 +11886,11 @@ footer {
 }
 
 .more-btn {
-  background-color: #5f77f4;
+  background-color: #4461e3;
   color: aliceblue;
 }
 
 .nav-page {
-  background-color: #0e1a4e;
   color: #0e1a4e;
 }
 

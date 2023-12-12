@@ -2,6 +2,7 @@
 // Option A: Include all of Bootstrap
 $primary: #2c5e9b4f;
 $secondary: #2b060670;
+$info: #4461e3;
 // Include any default variable overrides here (though functions won't be available)
 
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -38,12 +39,11 @@ footer {
 }
 
 .more-btn {
-    background-color: #5f77f4;
+    background-color: $info;
     color: aliceblue;
 }
 
 .nav-page {
-    background-color: #0e1a4e;
     color: #0e1a4e;
 }
 
